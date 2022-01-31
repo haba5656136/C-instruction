@@ -13,7 +13,7 @@ string[]newArray = array;
 
 for (int j = 0; j < newArray.Length; j++)
 {
-    if (array[j].Length <= 3) 
+    if (newArray[j].Length <= 3) 
 
         Console.Write(newArray[j]+" ");
 
